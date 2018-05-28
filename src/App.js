@@ -19,9 +19,9 @@ class App extends React.Component {
 
     }
   }
-  
+
   render() {
-    
+
     return (
       <Router basename="/">
         <div>
@@ -50,13 +50,13 @@ class App extends React.Component {
                   <Icon id="login" type="login"/>Login</Link>
               </Menu.Item>
               </Menu>
-          </Affix>      
+          </Affix>
                 <Route exact path="/" component={Homepage}/>
                 <Route path="/about" component={About}/>
                 <Route path="/leaderboard" component={Leaderboard}/>
                 <Route path="/tutoring" component={Tutoring}/>
                 <Route path="/login" component={Login}/>
-                <Route path="/" component={Footer}/>    
+                <Route path="/" component={Footer}/>
         </div>
       </Router>
     )

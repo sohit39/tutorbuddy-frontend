@@ -24,7 +24,7 @@
   padding-bottom: 9vh;
 }
 .title {
-  font-size: 120px;
+  font-size: 80px;
   margin-bottom: -5px;
 }
 .buddy {
@@ -34,8 +34,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin-top: 40px;
 }
 
@@ -68,11 +68,13 @@
   color:white;
   font-size: 23px;
   text-align: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .aboutMain {
-  margin-top: 25vh;
+
 }
 #buttonSignUp {
   text-align: center;
@@ -85,18 +87,18 @@
 
 /*Leaderboard*/
 #leaderTitle {
-  margin-top: 10px;
-  font-size: 100px;
+  font-size: 80px;
+  margin-bottom: -10px;
 }
 
 #loginForm {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
-  width: 550px;
+  margin-top: 40px;
+  width: 400px;
   background-color: #29E7CD;
-  padding: 30px 30px;
+  padding: 15px;
 }
 #loginbutton {
   display: block;
@@ -106,6 +108,7 @@
 #registerNow {
   font-size: 20px;
   text-align: center;
+
 }
 #registerContainer {
   margin-top: 10px;
@@ -113,7 +116,7 @@
 #loginTitle {
   text-align: center;
   color: #4D4A5D;
-  font-size: 100px;
+  font-size: 80px;
 }
 /*Footer*/
 .footer {

@@ -9,10 +9,10 @@ class Homepage extends React.Component {
         <img class="title" id="homeLogo" src={logo} alt="logo"></img>
        { /*<div class="title" id="description"> <i>The One Stop For <span class="buddy">All</span> Your Tutoring Needs</i> </div> */}
         <div class="homeButtons">
-            
+
         </div>
       </div>
-     
+
       );
     }
   }

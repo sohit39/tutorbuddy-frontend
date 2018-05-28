@@ -16,18 +16,18 @@ class login extends React.Component {
         <div id ="loginForm">
             <h1 id="loginTitle"> Login </h1>
             <Form onSubmit={this.handleSubmit} className="login-form" id="ggrip">
-                <FormItem>         
-                    <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />        
+                <FormItem>
+                    <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
                 </FormItem>
-                <FormItem>         
-                    <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />        
+                <FormItem>
+                    <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
                 </FormItem>
-                <FormItem>         
-                    
+                <FormItem>
+
                 <Button type="primary" htmlType="submit" className="login-form-button" id="loginbutton">
                     Log in
                 </Button>
-                <a id ="registerNow" href=""> <div id="registerContainer"> Or register now!</div></a>
+                <u><a id ="registerNow" href=""> <div id="registerContainer"> Or register now!</div></a></u>
                 </FormItem>
             </Form>
         </div>

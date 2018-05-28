@@ -5,7 +5,7 @@ class Leaderboard extends React.Component {
       return (
         <div id="leaderboard">
         <h1 id="leaderTitle"><span class="buddy">Leader</span>board</h1>
-          <div style={{ background: '#4D4A5D', padding: '30px' }}>
+          <div style={{ background: '#4D4A5D', padding: '50px' }}>
             <Row gutter={16}>
               <Col span={8}>
                   <Card title="Top Overall Tutor" bordered={false}>Card content</Card>
