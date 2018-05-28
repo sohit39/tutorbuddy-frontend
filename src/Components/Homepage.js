@@ -7,7 +7,7 @@ class Homepage extends React.Component {
      <div class="home">
         <h1 class="title">Tutor<span class="buddy">Buddy</span></h1>
         <img class="title" id="homeLogo" src={logo} alt="logo"></img>
-       { /*<div class="title" id="description"> <i>The One Stop For <span class="buddy">All</span> Your Tutoring Needs</i> </div> */}
+       <div class="title" id="description"> <i>The One Stop For <span class="buddy">All</span> Your Tutoring Needs</i> </div>
         <div class="homeButtons">
 
         </div>

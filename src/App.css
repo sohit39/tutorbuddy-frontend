@@ -20,11 +20,11 @@
   color:white;
 }
 #description {
-  font-size:40px;
+  font-size:5vh;
   padding-bottom: 9vh;
 }
 .title {
-  font-size: 80px;
+  font-size: 12vh;
   margin-bottom: -5px;
 }
 .buddy {
@@ -34,9 +34,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: 300px;
+  width: 55vh;
+  height: 55vh;
   margin-top: 40px;
+}
+
+#homeLogoAbout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vh;
+  height: 25vh;
+  margin-top: 45px;
 }
 
 /* Nav */
@@ -66,7 +75,7 @@
 /*About Page*/
 #aboutdescription {
   color:white;
-  font-size: 23px;
+  font-size: 2.6vh;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -87,7 +96,7 @@
 
 /*Leaderboard*/
 #leaderTitle {
-  font-size: 80px;
+  font-size: 10vh;
   margin-bottom: -10px;
 }
 
@@ -95,8 +104,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  width: 400px;
+  margin-top: 10vh;
+  width: 30vw;
   background-color: #29E7CD;
   padding: 15px;
 }
@@ -116,7 +125,7 @@
 #loginTitle {
   text-align: center;
   color: #4D4A5D;
-  font-size: 80px;
+  font-size: 9vh;
 }
 /*Footer*/
 .footer {

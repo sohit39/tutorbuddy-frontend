@@ -14,7 +14,7 @@ class login extends React.Component {
   render() {
     return (
         <div id ="loginForm">
-            <h1 id="loginTitle"> Login </h1>
+            <h1 id="loginTitle"> Sign In </h1>
             <Form onSubmit={this.handleSubmit} className="login-form" id="ggrip">
                 <FormItem>
                     <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />

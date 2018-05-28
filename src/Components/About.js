@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './tutorbuddy-logo.png';
+import logo from './IMG_0671.png';
 import { Button, Radio, Icon } from 'antd';
 class About extends React.Component {
     render() {
@@ -15,6 +15,8 @@ class About extends React.Component {
         <div id="buttonContainer">
             <Button id="buttonSignUp" size="large" ghost>Log In/Sign Up</Button>
         </div>
+
+        <img class="title" id="homeLogoAbout" src={logo} alt="logo"></img>
     </div>
     );
     }
